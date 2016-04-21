@@ -15,6 +15,15 @@ public class MainWindowController {
 
     @FXML
     private Label screen;
+    
+
+    @FXML
+    private Button buttonDiv;
+    
+    @FXML
+    void onClick_div(ActionEvent event) {
+
+    }
 
     @FXML
     void onClick_up(ActionEvent event) {
