@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
-	
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
-	<!-- TODO Add Nodes -->
-</BorderPane>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="buttonUp" layoutX="224.0" layoutY="212.0" mnemonicParsing="false" onAction="#onClick_up" text="+" />
+      <Button fx:id="buttonDown" layoutX="117.0" layoutY="212.0" mnemonicParsing="false" onAction="#onClick_down" text="-" />
+      <Label fx:id="screen" layoutX="177.0" layoutY="217.0" text="0" />
+   </children>
+</AnchorPane>
