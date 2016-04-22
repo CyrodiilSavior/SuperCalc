@@ -5,12 +5,24 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+<AnchorPane fx:id="anchorPane" onDragDetected="#onClick_eq" prefHeight="530.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
    <children>
-      <Button fx:id="buttonUp" layoutX="330.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClick_up" prefHeight="26.0" prefWidth="23.0" text="+" />
-      <Button fx:id="buttonDown" layoutX="331.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClick_down" text="-" />
-      <Label fx:id="screen" layoutX="177.0" layoutY="217.0" text="0" />
-      <Button fx:id="buttonDiv" layoutX="332.0" layoutY="331.0" mnemonicParsing="false" onAction="#onClick_div" text="/" />
+      <Button fx:id="buttonUp" layoutX="332.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClick_up" prefHeight="26.0" prefWidth="23.0" text="+" />
+      <Button fx:id="buttonDown" layoutX="332.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClick_down" prefHeight="26.0" prefWidth="26.0" text="-" />
+      <Label fx:id="screen" layoutX="221.0" layoutY="216.0" text="0" />
+      <Button fx:id="buttonDiv" layoutX="332.0" layoutY="332.0" mnemonicParsing="false" onAction="#onClick_div" prefHeight="26.0" prefWidth="26.0" text="/" />
+      <Button fx:id="buttonMult" layoutX="332.0" layoutY="370.0" mnemonicParsing="false" onAction="#onClick_mult" prefHeight="26.0" prefWidth="26.0" text="*" />
+      <Button fx:id="button_equals" layoutX="332.0" layoutY="404.0" mnemonicParsing="false" onAction="#onClick_eq" text="=" />
+      <Button fx:id="button_1" layoutX="172.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClick_one" text="1" />
+      <Button fx:id="button_2" layoutX="212.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClick_two" text="2" />
+      <Button fx:id="button_3" layoutX="254.0" layoutY="259.0" mnemonicParsing="false" onAction="#onClick_three" text="3" />
+      <Button fx:id="button_4" layoutX="172.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClick_four" text="4" />
+      <Button fx:id="button_5" layoutX="212.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClick_five" text="5" />
+      <Button fx:id="button_6" layoutX="254.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClick_six" text="6" />
+      <Button fx:id="button_7" layoutX="172.0" layoutY="326.0" mnemonicParsing="false" onAction="#onClick_seven" text="7" />
+      <Button fx:id="button_8" layoutX="212.0" layoutY="326.0" mnemonicParsing="false" onAction="#onClick_eight" text="8" />
+      <Button fx:id="button_9" layoutX="254.0" layoutY="326.0" mnemonicParsing="false" onAction="#onClick_nine" text="9" />
+      <Button fx:id="button_0" layoutX="212.0" layoutY="357.0" mnemonicParsing="false" onAction="#onClick_one" text="0" />
+      <Button fx:id="button_clear" layoutX="195.0" layoutY="404.0" mnemonicParsing="false" onAction="#onClick_clea" text="CLEAR" />
    </children>
 </AnchorPane>
