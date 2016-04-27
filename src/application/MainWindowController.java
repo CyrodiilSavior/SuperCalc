@@ -12,6 +12,12 @@ public class MainWindowController {
 	private AnchorPane anchorPane;
 	
 	@FXML
+    private Button button_DownAr;
+	
+	@FXML
+	private Button button_UpAr;
+	
+	@FXML
 	private Button button_clear;
 
     @FXML
@@ -70,13 +76,13 @@ public class MainWindowController {
     }
 
     @FXML
-    void onClick_up(ActionEvent event) {
+    void onClick_add(ActionEvent event) {
     	screenNumber++;
     	screen.setText(new String(""+screenNumber));
     }
 
     @FXML
-    void onClick_down(ActionEvent event) {
+    void onClick_sub(ActionEvent event) {
     	screenNumber--;
     	screen.setText(new String(""+screenNumber));
     }
@@ -88,6 +94,16 @@ public class MainWindowController {
 
     @FXML
     void onClick_mult(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void onClick_down(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void onClick_Up(ActionEvent event) {
 
     }
     
