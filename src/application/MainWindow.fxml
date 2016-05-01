@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane fx:id="anchorPane" onDragDetected="#onClick_eq" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
    <children>
       <Button fx:id="buttonUp" layoutX="326.0" layoutY="300.0" mnemonicParsing="false" onAction="#onClick_add" prefHeight="40.0" prefWidth="38.0" text="+" />
       <Button fx:id="buttonDown" layoutX="326.0" layoutY="357.0" mnemonicParsing="false" onAction="#onClick_sub" prefHeight="40.0" prefWidth="38.0" text="-" />
@@ -22,10 +22,14 @@
       <Button fx:id="button_8" layoutX="112.0" layoutY="457.0" mnemonicParsing="false" onAction="#onClick_eight" prefHeight="69.0" prefWidth="66.0" text="8" />
       <Button fx:id="button_9" layoutX="189.0" layoutY="457.0" mnemonicParsing="false" onAction="#onClick_nine" prefHeight="69.0" prefWidth="66.0" text="9" />
       <Button fx:id="button_0" layoutX="112.0" layoutY="533.0" mnemonicParsing="false" onAction="#onClick_zero" prefHeight="63.0" prefWidth="66.0" text="0" />
-      <Button fx:id="button_clear" layoutX="215.0" layoutY="547.0" mnemonicParsing="false" onAction="#onClick_clea" prefHeight="40.0" prefWidth="80.0" text="CLEAR" />
+      <Button fx:id="button_clear" layoutX="23.0" layoutY="545.0" mnemonicParsing="false" onAction="#onClick_clea" prefHeight="40.0" prefWidth="80.0" text="CLEAR" />
       <TextArea editable="false" layoutX="25.0" layoutY="24.0" prefHeight="200.0" prefWidth="350.0" />
       <Button fx:id="screen" layoutX="22.0" layoutY="237.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="246.0" text="MENU" />
       <Button fx:id="button_UpAr" layoutX="280.0" layoutY="237.0" mnemonicParsing="false" onAction="#onClick_Up" prefHeight="40.0" prefWidth="38.0" text="▲" />
       <Button fx:id="button_DownAr" layoutX="326.0" layoutY="237.0" mnemonicParsing="false" onAction="#onClick_down" prefHeight="40.0" prefWidth="38.0" text="▼" />
+      <Button fx:id="button_Enter" layoutX="189.0" layoutY="545.0" mnemonicParsing="false" onAction="#onClick_Ent" prefHeight="40.0" prefWidth="80.0" text="ENTER" />
+      <Button fx:id="button_SIN" layoutX="266.0" layoutY="307.0" mnemonicParsing="false" onAction="#onClick_Si" prefHeight="26.0" prefWidth="47.0" text="SIN" />
+      <Button fx:id="button_COS" layoutX="268.0" layoutY="356.0" mnemonicParsing="false" onAction="#onClick_Co" text="COS" />
+      <Button fx:id="button_TAN" layoutX="268.0" layoutY="404.0" mnemonicParsing="false" onAction="#onClick_Ta" prefHeight="26.0" prefWidth="47.0" text="TAN" />
    </children>
 </AnchorPane>
