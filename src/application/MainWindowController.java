@@ -2,74 +2,93 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+<<<<<<< HEAD
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+=======
+>>>>>>> origin/master
 import javafx.scene.layout.AnchorPane;
 
 public class MainWindowController {
-	int screenNumber = 0;
 	
-	@FXML
-	private AnchorPane anchorPane;
-	
-	@FXML
-	private Button button_clear;
+
+    @FXML
+    private Button button_clear;
 
     @FXML
     private Button buttonDown;
 
     @FXML
+<<<<<<< HEAD
     private Button button_equals;
     
     private TextField myScreen = new TextField();
+=======
+    private Button button_SIN;
+
+    @FXML
+    private Button screen;
+>>>>>>> origin/master
+
+    @FXML
+    private Button button_UpAr;
+
+    @FXML
+    private Button button_equals;
 
     @FXML
     private Button buttonDiv;
-    
-    @FXML
-    private Button buttonMult;
-    
-    @FXML
-    private Button buttonUp;
-   
-    @FXML
-    private Button button_0;
-    
-    @FXML
-    private Button button_1;
-    
+
     @FXML
     private Button button_2;
 
     @FXML
-    private Button button_3;
+    private Button button_1;
 
     @FXML
     private Button button_4;
 
     @FXML
-    private Button button_5;
+    private AnchorPane anchorPane;
+
+    @FXML
+    private Button button_3;
+
+    @FXML
+    private Button button_0;
+
+    @FXML
+    private Button button_Enter;
+
+    @FXML
+    private Button button_TAN;
+
+    @FXML
+    private Button buttonUp;
+
+    @FXML
+    private Button button_9;
+
+    @FXML
+    private Button button_COS;
 
     @FXML
     private Button button_6;
 
     @FXML
-    private Button button_7;
+    private Button button_DownAr;
+
+    @FXML
+    private Button button_5;
+
+    @FXML
+    private Button buttonMult;
 
     @FXML
     private Button button_8;
 
     @FXML
-    private Button button_9;
-
-    
-
-    @FXML
-    void onClick_eq(ActionEvent event) {
-
-    }
-
-    @FXML
+<<<<<<< HEAD
     void onClick_add(ActionEvent event){
     	
     }
@@ -91,6 +110,18 @@ public class MainWindowController {
 
     @FXML
     void onClick_down(ActionEvent event) {
+=======
+    private Button button_7;
+
+    @FXML
+    void onClick_add(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_sub(ActionEvent event) {
+
+>>>>>>> origin/master
     }
 
     @FXML
@@ -102,10 +133,15 @@ public class MainWindowController {
     void onClick_mult(ActionEvent event) {
 
     }
-    
+
     @FXML
+<<<<<<< HEAD
     void onClick_clea(ActionEvent event) {
     	myScreen.clear();
+=======
+    void onClick_eq(ActionEvent event) {
+
+>>>>>>> origin/master
     }
 
     @FXML
@@ -159,6 +195,43 @@ public class MainWindowController {
 
     }
 
+    @FXML
+    void onClick_zero(ActionEvent event) {
 
+    }
 
+    @FXML
+    void onClick_clea(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_Up(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_down(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_Ent(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_Si(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_Co(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClick_Ta(ActionEvent event) {
+
+    }
 }
