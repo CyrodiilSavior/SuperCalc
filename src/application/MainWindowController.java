@@ -2,9 +2,10 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
-//This is a change
+
 public class MainWindowController {
 	int screenNumber = 0;
 	
@@ -19,9 +20,8 @@ public class MainWindowController {
 
     @FXML
     private Button button_equals;
-
-    @FXML
-    private Label screen;
+    
+    private TextField myScreen = new TextField();
 
     @FXML
     private Button buttonDiv;
@@ -70,15 +70,27 @@ public class MainWindowController {
     }
 
     @FXML
-    void onClick_up(ActionEvent event) {
-    	screenNumber++;
-    	screen.setText(new String(""+screenNumber));
+    void onClick_add(ActionEvent event){
+    	
+    }
+    
+    @FXML
+    void onClick_sub(ActionEvent event){
+    	
+    }
+    
+    @FXML
+    void onClick_menu(ActionEvent event){
+
+    }
+    
+    @FXML
+    void onClick_Up(ActionEvent event) {
+;
     }
 
     @FXML
     void onClick_down(ActionEvent event) {
-    	screenNumber--;
-    	screen.setText(new String(""+screenNumber));
     }
 
     @FXML
@@ -93,7 +105,7 @@ public class MainWindowController {
     
     @FXML
     void onClick_clea(ActionEvent event) {
-
+    	myScreen.clear();
     }
 
     @FXML
@@ -138,6 +150,12 @@ public class MainWindowController {
 
     @FXML
     void onClick_nine(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void onClick_zero(ActionEvent event){
+    	myScreen.setText("LONGER STRING OF TEXT!!!");
 
     }
 
